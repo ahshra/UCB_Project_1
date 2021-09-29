@@ -97,8 +97,5 @@ SSH into the control node and follow the steps below:
 - Run the playbooks.
 
 The playbook files are filebeat-playbook.yml and metricbeat-playbook.yml. You can find them here:
-filebeat: https://github.com/ahshra/UCB_Project_1/blob/main/Ansible/filebeat-playbook.yml
-metricbeat: https://github.com/ahshra/UCB_Project_1/blob/main/Ansible/metricbeat-playbook.yml
-
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
+-https://github.com/ahshra/UCB_Project_1/blob/main/Ansible/filebeat-playbook.yml
+-https://github.com/ahshra/UCB_Project_1/blob/main/Ansible/metricbeat-playbook.yml
