@@ -9,10 +9,10 @@ https://github.com/ahshra/UCB_Project_1/blob/main/Diagrams/Network_Architecture.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the [yml file] file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+  -install-elk.yml
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topolog
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -56,8 +56,10 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box |     No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Web-1    |     No              |                      |
+| Web-2    |     No              |                      |
+| Web-3    |     No              |                      |
+| Elk      |     No              |                      |
 
 ### Elk Configuration
 
