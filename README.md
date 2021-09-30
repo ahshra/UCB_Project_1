@@ -97,5 +97,8 @@ SSH into the control node and follow the steps below:
 - Run the playbooks.
 
 The playbook files are filebeat-playbook.yml and metricbeat-playbook.yml. You can find them here:
--https://github.com/ahshra/UCB_Project_1/blob/main/Ansible/filebeat-playbook.yml
--https://github.com/ahshra/UCB_Project_1/blob/main/Ansible/metricbeat-playbook.yml
+https://github.com/ahshra/UCB_Project_1/blob/main/Ansible/filebeat-playbook.yml
+https://github.com/ahshra/UCB_Project_1/blob/main/Ansible/metricbeat-playbook.yml
+
+Update the config fies for filebeat and metricbeat to run Ansible on a specific machine. 
+In order to verify that you can access your server, navigate to http://[your.ELK-VM.External.IP]:5601/app/kibana. Use the public IP address of your new VM. 
